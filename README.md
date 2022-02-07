@@ -3,14 +3,14 @@ Sign-in, Sign-up backend
 ## How to request
 #### json format 
 **request**
-/api/signup - url
+/api/signup - url \n
 `[
 "name":"name",
 "email":"email@gmail.com",
 "role":"role",
 "password":"password"
-]`
-/api/signin - url
+]`\n
+/api/signin - url \n
 `[
 "email":"email@gmail.com",
 "password":"password"
