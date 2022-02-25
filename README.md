@@ -1,21 +1,10 @@
 # Login
 Sign-in, Sign-up backend
 ## How to request
-#### json format 
-**request**
-/api/signup - url \n
-`[
-"name":"name",
-"email":"email@gmail.com",
-"role":"role",
-"password":"password"
-]`\n
-/api/signin - url \n
-`[
-"email":"email@gmail.com",
-"password":"password"
- ]`
- 
+### /api/signup - url 
+![img](signup.png)
+### /api/signin - url 
+![img](signin.png)
  **IMPORTANT**
  create .env file in home directory and add the following
  `DB_URL=xxxxxdb_urlxxxxx \n
